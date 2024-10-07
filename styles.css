@@ -1,0 +1,133 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+.container {
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    margin-top: 25px;
+    
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+
+.header {
+    background-color: white;
+    color: black;
+    
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textBox{
+    display: block;
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+.logo{
+    
+    font-size: 30px;
+    padding: 10px;
+    
+    
+}
+
+
+   
+
+.text1 {
+    
+    display: flex;
+    
+}
+
+.text2 {
+    
+}
+
+.Dots {
+    padding: 15px;
+
+}
+
+.mainImage {
+    max-width: 100%;
+    
+    
+}
+
+
+
+
+.footer {
+
+    background-color: white;
+    font-size: 25px;
+    color: black;
+    
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    
+    
+}
+
+
+.headerLeft{
+    display: flex;
+
+}
+
+.saveButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 470px;
+    margin-top: 2px;
+}
+
+.Interractions {
+    color: black;
+    background-color: white;
+    height: 55px;
+    margin: 10px;
+
+}
+
+.Description {
+    color: black;
+    background-color: white;
+    height: 60px;
+    margin: 10px;
+    
+}
+
+.likeButton{
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+.commentsButton {
+    margin-right: 5px;
+}
